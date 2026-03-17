@@ -54,3 +54,8 @@ static int sum(int[] values)
 
     return sum;
 }
+
+static int CalculateAverage(int[] values)
+{
+    return 5;
+}
