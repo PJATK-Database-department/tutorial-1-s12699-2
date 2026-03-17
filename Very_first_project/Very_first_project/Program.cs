@@ -1,6 +1,11 @@
 ﻿Console.WriteLine("My very first commit");
 
+int[] table = [3, 5, 15, 10];
 
+Console.WriteLine(average(table));
+Console.WriteLine(maximum(table));
+Console.WriteLine(minimum(table));
+Console.WriteLine(sum(table));
 static int average(int[] values)
 {
     int sum = 0;
@@ -28,7 +33,7 @@ static int maximum(int[] values)
 
 static int minimum(int[] values)
 {
-    int min = 0;
+    int min = 2147483647;
 
     foreach (int i in values)
     {
