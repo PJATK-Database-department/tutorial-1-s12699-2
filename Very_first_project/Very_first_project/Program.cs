@@ -57,5 +57,5 @@ static int sum(int[] values)
 
 static int CalculateAverage(int[] values)
 {
-    return 5;
+    return values.Sum() / values.Length;
 }
