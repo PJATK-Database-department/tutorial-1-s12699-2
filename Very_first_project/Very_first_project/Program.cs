@@ -25,3 +25,15 @@ static int maximum(int[] values)
     }
     return max;
 }
+
+static int minimum(int[] values)
+{
+    int min = 0;
+
+    foreach (int i in values)
+    {
+        if (min > i)
+            min = i;
+    }
+    return min;
+}
