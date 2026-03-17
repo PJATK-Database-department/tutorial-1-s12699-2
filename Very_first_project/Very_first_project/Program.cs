@@ -37,3 +37,15 @@ static int minimum(int[] values)
     }
     return min;
 }
+
+static int sum(int[] values)
+{
+    int sum = 0;
+
+    foreach (int i in values)
+    {
+        sum += i;
+    }
+
+    return sum;
+}
