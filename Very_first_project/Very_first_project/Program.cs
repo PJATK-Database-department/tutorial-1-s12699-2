@@ -3,6 +3,7 @@
 int[] table = [3, 5, 15, 10];
 
 Console.WriteLine(average(table));
+Console.WriteLine(CalculateAverage(table));
 Console.WriteLine(maximum(table));
 Console.WriteLine(minimum(table));
 Console.WriteLine(sum(table));
@@ -55,7 +56,7 @@ static int sum(int[] values)
     return sum;
 }
 
-static int CalculateAverage(int[] values)
+static double CalculateAverage(int[] values)
 {
     return values.Sum() / values.Length;
 }
