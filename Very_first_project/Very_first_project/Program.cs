@@ -70,12 +70,12 @@ static int CalculateMax(int[] values)
 
 static int CalculateMin(int[] values)
 {
-    uint min = 4294967295;
+    int min = 0;
 
     foreach (int i in values)
     {
         if (min > i)
-            min = (uint)i;
+            min = i;
     }
-    return (int)min;
+    return min;
 }
