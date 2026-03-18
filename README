@@ -5,3 +5,4 @@ Worth to note that last merge is visible in github page wheras fast-forward is n
 
 Question 2
 The major difference is in the history. After rebase, the history is linear (similar to fast-forward). After merge, the history looks different, present every forks and joins.
+In other words, rebase rewrite the commit history, and merge keep that history.
