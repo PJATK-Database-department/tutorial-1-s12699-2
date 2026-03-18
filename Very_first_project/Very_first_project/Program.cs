@@ -6,6 +6,7 @@ Console.WriteLine(average(table));
 Console.WriteLine(CalculateAverage(table));
 Console.WriteLine(maximum(table));
 Console.WriteLine(minimum(table));
+Console.WriteLine(CalculateMin(table));
 Console.WriteLine(sum(table));
 Console.WriteLine(CalculateMax(table));
 static int average(int[] values)
