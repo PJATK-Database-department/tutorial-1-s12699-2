@@ -7,6 +7,7 @@ Console.WriteLine(CalculateAverage(table));
 Console.WriteLine(maximum(table));
 Console.WriteLine(minimum(table));
 Console.WriteLine(sum(table));
+Console.WriteLine(CalculateMax(table));
 static int average(int[] values)
 {
     int sum = 0;
