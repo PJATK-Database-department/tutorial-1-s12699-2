@@ -1,0 +1,2 @@
+Question 1
+Fast-forward commit is made only when the branch which another branch is merge to doesn't have any individual commits. In such situation the history of those two branches is linear after all.
