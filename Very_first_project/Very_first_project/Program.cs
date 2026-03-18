@@ -7,6 +7,7 @@ Console.WriteLine(CalculateAverage(table));
 Console.WriteLine(maximum(table));
 Console.WriteLine(minimum(table));
 Console.WriteLine(sum(table));
+Console.WriteLine(CalculateMax(table));
 static int average(int[] values)
 {
     int sum = 0;
@@ -59,4 +60,9 @@ static int sum(int[] values)
 static double CalculateAverage(int[] values)
 {
     return values.Sum() / values.Length;
+}
+
+static int CalculateMax(int[] values)
+{
+    return values.Sum();
 }
