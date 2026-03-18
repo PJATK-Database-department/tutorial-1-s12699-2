@@ -66,3 +66,8 @@ static int CalculateMax(int[] values)
 {
     return values.Sum();
 }
+
+static int CalculateMin(int[] values)
+{
+    return;
+}
