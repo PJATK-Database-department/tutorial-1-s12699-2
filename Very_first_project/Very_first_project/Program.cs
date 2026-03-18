@@ -63,5 +63,5 @@ static double CalculateAverage(int[] values)
 
 static int CalculateMax(int[] values)
 {
-    return;
+    return values.Sum();
 }
