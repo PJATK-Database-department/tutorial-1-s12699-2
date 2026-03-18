@@ -2,3 +2,6 @@ Question 1
 Fast-forward commit is possible only when the target branch doesn't have any individual commits. In such situation the history of those two branches is linear after all.
 When merge after Task 5 has been performed, on both branches (main and feature-max) changes have been created and on both were new independent commits. This is why HEAD pointer couldn't be simply move forward, to avoid removing changes made on another branch.
 Worth to note that last merge is visible in github page wheras fast-forward is not. This is because a fast-forward merge does not creating a new commit, and merge commit does.
+
+Question 2
+The major difference is in the history. After rebase, the history is linear (similar to fast-forward). After merge, the history looks different, present every forks and joins.
